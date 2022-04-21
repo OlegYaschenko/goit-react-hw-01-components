@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const Card = styled.div`
   margin-left: auto;
@@ -32,7 +32,7 @@ export const Tag = styled.p`
 
 export const Location = styled.p`
   color: rgba(0, 0, 0, 0.5);
-  `;
+`;
 
 export const Stats = styled.ul`
   display: flex;
@@ -44,12 +44,11 @@ export const Stats = styled.ul`
     width: 100%;
     height: 100%;
     border: 1px solid rgb(0 0 0 / 20%);
-    &:hover  {
-      background-color:  rgba(0, 255, 187, 0.8);
+    &:hover {
+      background-color: rgba(0, 255, 187, 0.8);
     }
   }
 `;
-
 
 export const Label = styled.span`
   display: block;

@@ -1,7 +1,7 @@
-import user from 'user.json';
-import data from 'data.json';
-import friends from 'friends.json';
-import transactions from 'transactions.json';
+import user from 'components/data/user.json';
+import data from 'components/data/data.json';
+import friends from 'components/data/friends.json';
+import transactions from 'components/data/transactions.json';
 
 import { Container } from './App.styled';
 import { Profile } from 'components/Profile/Profile';
@@ -17,9 +17,7 @@ export const App = () => {
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
-        followers={user.stats.followers}
-        views={user.stats.views}
-        likes={user.stats.likes}
+        stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />

@@ -14,7 +14,7 @@ export const Tr = styled.tr`
   text-align: center;
   :nth-of-type(2n) {
     background-color: #d5d5d5;
-  }d
+  }
 `;
 
 export const Th = styled.th``;
